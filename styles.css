@@ -1,0 +1,83 @@
+/* body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #1d0ba18d;
+    color: white;
+    text-align: center;
+    padding: 20px;
+} */
+
+body {
+    margin: 0;
+    font-family: 'Karla', sans-serif;
+    background-color: #0b0bc0be;
+    color:antiquewhite;
+    text-align: center;
+    padding: 40px;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    background-color: #1a1b26;
+    padding: 20px;
+    border-radius: 20px;
+}
+
+.profile{
+    margin: 50px;
+    border-radius: 25px;
+    background: linear-gradient(#e8fd00, #1c1c1ed2);
+}
+
+.row {
+    margin: 20px;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    flex-direction: row;
+    padding: 20px;
+    width: 100%;
+}
+
+.btn {
+    background-color: #fa6400;
+    border: 0px solid transparent;
+    border-radius: .25rem;
+    cursor: pointer;
+    font-family: system-ui, -apple-system, system-ui, "Helvetica Neue", Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    font-weight: 600;
+    padding: 10px 20px;
+    min-width: 110px;
+}
+
+.btn:hover,
+.btn:focus {
+    background-color: #fb8332;
+    box-shadow: rgba(0, 0, 0, 0.1) 0 4px 12px;
+}
+
+.card--container {
+    background-color: #8f8f8f; /* Color de fondo de la tarjeta */
+    padding: 1px;
+    border: 1px solid #1a1b26;
+    margin-top: 20px;
+    text-align: center;
+}
+.card {
+    /* background-color: #1a1b26; Color de fondo de la tarjeta del Pokémon */
+    padding: 1px;
+    border: 1px solid #1a1b26;
+    border-radius: 5px;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    margin: 10px;
+    border-radius: 25px;
+    background: linear-gradient(#98a411, #1c1c1ed2);
+}
+.card p {
+    margin: 20px;
+}
