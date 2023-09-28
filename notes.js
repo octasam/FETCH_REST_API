@@ -142,6 +142,66 @@ fetch('https://jsonplaceholder.typicode.com/posts', {
 // - La tarjeta debe mantenerse en la pantalla.
 // - La info -> LocalStorage -> Fetch
 
+// let inputName = document.getElementById('poke-name');
+// let pokeName = document.getElementById('poke-name');
+// let inputId = document.getElementById('poke-id');
+// let pokeId = document.getElementById('poke-id');
+
+
+// const profileBtn = document.getElementById('profileBtn');
+// profileBtn.addEventListener('click',() => {
+//     pokeName.textContent = pokeName;
+//     pokeId.textContent = pokeId;
+// })
+
+// const pokemones = [];
+
+// const CARD_SECTION = document.getElementById('profiles');
+
+// const createCard = () => {
+//     const card = document.createElement('div'); //creamos un div
+//     card.classList.add('profile', 'container'); //le damos una clase a ese div para que quede con la misma sintaxis que en el div de HTML
+//     return card;
+// }
+
+// const createDescription = () => {
+//     const pokeElements = {
+//         name: document.createElement('h2'),
+//         id: document.createElement('h3')
+//     }
+//     return pokeElements;
+// }
+// const populateElements = (pokemon, pokeElements) => {
+//     pokeElements.name.textContent = pokemon.name;
+//     pokeElements.id.textContent = pokemon.id;
+
+//     return pokeElements;
+// }
+
+// const renderElements = (card, pokeElements) => {
+//     card.append(pokeElements.name, pokeElements.id)
+// }
+
+
+// const createPokeCard = (fetchPokemon, pokeElements) => {
+//     pokeElements.name.textContent = pokeName.name;
+//     pokeElements.id.textContent = fetchPokemon.id;
+    
+//     return pokeElements;
+// }
+
+// profileBtn.addEventListener('click', () => {
+//     const newPoke = {
+//         name: pokeName.name,
+//         id: pokeId.id,
+//     }
+//     pokemones.push(newPoke)
+//     const card = createCard();
+//     const pokeElements = createDescription();
+//     const elementsWithData = createPokeCard(newPoke, pokeElements);
+//     renderElements(card, elementsWithData);
+//     CARD_SECTION.append(card);
+// })
 let pokemones = [];
 
 // Obtener pokemon
